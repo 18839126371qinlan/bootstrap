@@ -11,7 +11,7 @@ import {
   emulateTransitionEnd,
   getTransitionDurationFromElement,
   typeCheckConfig
-} from './util/index'
+} from './util'
 import Data from './dom/data'
 import EventHandler from './dom/eventHandler'
 import Manipulator from './dom/manipulator'

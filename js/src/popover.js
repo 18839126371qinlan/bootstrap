@@ -7,7 +7,7 @@
 
 import {
   jQuery as $
-} from './util/index'
+} from './util'
 import Data from './dom/data'
 import SelectorEngine from './dom/selectorEngine'
 import Tooltip from './tooltip'

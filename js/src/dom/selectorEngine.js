@@ -8,7 +8,7 @@
 import Polyfill from './polyfill'
 import {
   makeArray
-} from '../util/index'
+} from '../util'
 
 /**
  * ------------------------------------------------------------------------

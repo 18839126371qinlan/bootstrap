@@ -7,7 +7,7 @@
 
 import {
   getUID
-} from '../util/index'
+} from '../util'
 
 /* istanbul ignore next */
 const Polyfill = (() => {

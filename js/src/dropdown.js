@@ -12,7 +12,7 @@ import {
   makeArray,
   noop,
   typeCheckConfig
-} from './util/index'
+} from './util'
 import Data from './dom/data'
 import EventHandler from './dom/eventHandler'
 import Manipulator from './dom/manipulator'
@@ -381,7 +381,7 @@ class Dropdown {
 
     if (typeof config === 'string') {
       if (typeof data[config] === 'undefined') {
-        throw new Error(`No method named "${config}"`)
+        throw new TypeError(`No method named "${config}"`)
       }
 
       data[config]()

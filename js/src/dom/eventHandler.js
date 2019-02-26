@@ -7,7 +7,7 @@
 
 import {
   jQuery as $
-} from '../util/index'
+} from '../util'
 import Polyfill from './polyfill'
 
 /**

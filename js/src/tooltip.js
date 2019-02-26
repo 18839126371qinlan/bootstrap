@@ -16,7 +16,7 @@ import {
   makeArray,
   noop,
   typeCheckConfig
-} from './util/index'
+} from './util'
 import {
   DefaultWhitelist,
   sanitizeHtml

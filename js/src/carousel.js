@@ -16,7 +16,7 @@ import {
   reflow,
   triggerTransitionEnd,
   typeCheckConfig
-} from './util/index'
+} from './util'
 import Data from './dom/data'
 import EventHandler from './dom/eventHandler'
 import Manipulator from './dom/manipulator'
@@ -553,7 +553,7 @@ class Carousel {
       data.to(config)
     } else if (typeof action === 'string') {
       if (typeof data[action] === 'undefined') {
-        throw new Error(`No method named "${action}"`)
+        throw new TypeError(`No method named "${action}"`)
       }
 
       data[action]()

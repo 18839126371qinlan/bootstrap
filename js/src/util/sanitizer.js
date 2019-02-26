@@ -7,7 +7,7 @@
 
 import {
   makeArray
-} from './index'
+} from '.'
 
 const uriAttrs = [
   'background',
